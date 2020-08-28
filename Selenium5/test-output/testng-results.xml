@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45230" started-at="2020-08-28T12:30:49 IST" finished-at="2020-08-28T12:31:34 IST">
+    <groups>
+    </groups>
+    <test name="Base" duration-ms="17" started-at="2020-08-28T12:30:49 IST" finished-at="2020-08-28T12:30:49 IST">
+    </test> <!-- Base -->
+    <test name="Login" duration-ms="7678" started-at="2020-08-28T12:30:49 IST" finished-at="2020-08-28T12:30:57 IST">
+      <class name="Work.Login">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Work.Login@528931cf]" name="Login" duration-ms="7558" started-at="2020-08-28T12:30:49 IST" finished-at="2020-08-28T12:30:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Work.Login -->
+    </test> <!-- Login -->
+    <test name="Dogselection" duration-ms="24385" started-at="2020-08-28T12:30:57 IST" finished-at="2020-08-28T12:31:21 IST">
+      <class name="Work.Dogselection">
+        <test-method status="PASS" signature="Dogselection()[pri:0, instance:Work.Dogselection@7a765367]" name="Dogselection" duration-ms="24372" started-at="2020-08-28T12:30:57 IST" finished-at="2020-08-28T12:31:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dogselection -->
+      </class> <!-- Work.Dogselection -->
+    </test> <!-- Dogselection -->
+    <test name="Summary" duration-ms="9449" started-at="2020-08-28T12:31:21 IST" finished-at="2020-08-28T12:31:31 IST">
+      <class name="Work.Summary">
+        <test-method status="PASS" signature="shopping()[pri:0, instance:Work.Summary@4b553d26]" name="shopping" duration-ms="9440" started-at="2020-08-28T12:31:21 IST" finished-at="2020-08-28T12:31:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+      </class> <!-- Work.Summary -->
+    </test> <!-- Summary -->
+    <test name="Logincredential" duration-ms="3543" started-at="2020-08-28T12:31:31 IST" finished-at="2020-08-28T12:31:34 IST">
+      <class name="Work.Logincredential">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Work.Logincredential@3dfc5fb8]" name="setup" is-config="true" duration-ms="8576" started-at="2020-08-28T12:30:40 IST" finished-at="2020-08-28T12:30:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Work.Logincredential@3dfc5fb8]" name="Login" duration-ms="3542" started-at="2020-08-28T12:31:31 IST" finished-at="2020-08-28T12:31:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Work.Logincredential@3dfc5fb8]" name="Logout" is-config="true" duration-ms="627" started-at="2020-08-28T12:31:34 IST" finished-at="2020-08-28T12:31:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Work.Logincredential -->
+    </test> <!-- Logincredential -->
+  </suite> <!-- Suite -->
+</testng-results>

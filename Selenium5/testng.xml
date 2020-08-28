@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Base">
+		<classes>
+			<class name="Work.Base" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Login">
+		<classes>
+			<class name="Work.Login" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Dogselection">
+		<classes>
+			<class name="Work.Dogselection" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="Summary">
+		<classes>
+			<class name="Work.Summary" />
+		</classes>
+		</test> <!-- Test -->
+	<test thread-count="1" name="Logincredential">
+		<classes>
+			<class name="Work.Logincredential" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
